@@ -1,0 +1,150 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	background-color: #DFDEDE;
+}
+.header {
+	width: 1000px;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.main {
+	width: 1000px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main .navbar {
+	background-color: #E39597;
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+.main .navbar a {
+	display: block;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 40px;
+	background-color: #AA595B;
+	color: #FFFFFF;
+	font-size: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.main .navbar a:hover  {
+	background-color: #82484A;
+	-webkit-box-shadow: inset 0px 0px 5px;
+	box-shadow: inset 0px 0px 5px;
+}
+
+.main .section {
+	width: 780px;
+	background-color: #91C1FC;
+	height: 500px;
+	float: left;
+	margin-left: 20px;
+}
+.main .section iframe {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+.d-text {
+	text-align: center;
+	border: none;
+	line-height: 25px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.txt1 {
+	width: 60%;
+	border: none;
+	line-height: 25px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-indent: 10px;
+}
+
+
+.green {
+	background-color: #82F1A7;
+}
+tbody tr td {
+	width: 780px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 50px;
+}
+
+.green table td {
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.txt2 {
+	border: none;
+	line-height: 25px;
+	width: 35%;
+}
+.me1 {
+	width: 5%;
+	text-align: center;
+	border: none;
+	line-height: 25px;
+}
+.me2   {
+	border: none;
+	line-height: 25px;
+	width: 20%;
+	height: 25px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.d-area {
+	height: 100px;
+	border: none;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	float: left;
+}
+.areatext {
+	border: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 60%;
+	text-indent: 10px;
+	float: left;
+	height: 98px;
+}
+.submit {
+	border: none;
+	width: 30%;
+	line-height: 25px;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: #5BB178;
+	color: #FFFFFF;
+}
+.submit:hover {
+	background-color: #44875B;
+}
+.footre  {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+}
